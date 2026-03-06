@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Georgia", serif;
+    background: #f2f2f2;
+    color: #111;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+header {
+    background: #000;
+    padding: 20px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero {
+    height: 90vh;
+    background: url(img/heeader.jpg) center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    color: white;
+}
+
+.hero-content {
+    max-width: 500px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 30px;
+    border: 2px solid white;
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    padding: 80px 0;
+}
+
+.section-title {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.about {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.about img {
+    width: 400px;
+}
+
+.gallery {
+    display: flex;
+    gap: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 300px;
+}
+
+.box {
+    border: 2px solid #111;
+    padding: 30px;
+    background: white;
+}
+
+.schedule,
+.tickets,
+.excursions {
+    margin-bottom: 40px;
+}
+
+.map {
+    width: 100%;
+    height: 400px;
+    background: url('img/map.png')
+}
+
+footer {
+    background: #ddd;
+    text-align: center;
+    padding: 30px;
+}
+
+max-width: 900px {
+    .about {
+        flex-direction: column;
+    }
+
+    .gallery {
+        flex-direction: column;
+    }
+}
+.wrapper {
+    max-width: 1200px;
+    margin: 120px auto;
+    padding: 0 20px;
+}
+
+.wrapper .row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+/* text block */
+
+.wrapper .text {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #222;
+}
+
+.wrapper h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+/* image block */
+
+.wrapper .image img {
+    width: 100%;
+}
+
+.tickets-section {
+     padding: 70px 0;
+}
+
+.tickets-title {
+     font-size: 32px;
+     margin-bottom: 25px;
+    font-weight: normal;
+}
+
+.tickets-wrapper {
+    background: #C9BAB7;
+    border: 2px solid #333;
+    padding: 30px;
+}
+
+.tickets-info {
+    margin-bottom: 30px;
+}
+
+.tickets-info h5 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.tickets-prices {
+    background: #d9d4cf;
+    border: 2px solid #333;
+    padding: 20px;
+}
+
+.price-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px 0;
+    border-bottom: 1px solid #999;
+    }
+
+.price-row:last-child {
+    border-bottom: none;
+}
+
+.price-row.header {
+    font-weight: bold;
+}
+
+.ticket-btn-wrap {
+     text-align: right;
+    margin-top: 20px;
+}
+
+.ticket-btn {
+    display: inline-block;
+    padding: 10px 30px;
+    border: 2px solid #333;
+    background: #C9BAB7;
+    text-decoration: none;
+    color: #111;
+letter-spacing: 1px;
+}
+
+
+        /* ===== ЕДИНЫЙ МУЗЕЙНЫЙ СТИЛЬ ===== */
+
+        .museum-wrapper {
+            background: #B8C2B4;
+            border: 2px solid #333;
+            padding: 30px;
+        }
+
+        .museum-section {
+            padding: 70px 0;
+            margin: auto;
+        }
+
+        .price-section {
+            background: #bfc6b8;
+        }
+
+
+        .museum-title {
+            font-size: 32px;
+            margin-bottom: 25px;
+            font-weight: normal;
+        }
+
+        .museum-box {
+            background: #d9d4cf;
+            border: 2px solid #333;
+            padding: 30px;
+        }
+
+        .museum-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 12px 0;
+            border-bottom: 1px solid #999;
+        }
+
+        .museum-row:last-child {
+            border-bottom: none;
+        }
+
+        .museum-note {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #333;
+        }
+
+        .museum-table-header,
+        .museum-table-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            padding: 12px 0;
+            border-bottom: 1px solid #999;
+        }
+
+        .museum-table-header {
+            font-weight: bold;
+        }
+
+        .museum-btn-wrap {
+            text-align: right;
+            margin-top: 20px;
+        }
+
+        .museum-btn {
+            display: inline-block;
+            padding: 10px 30px;
+            border: 2px solid #333;
+            background: #bfb8b2;
+            text-decoration: none;
+            color: #111;
+
+            letter-spacing: 1px;
+        }
+
+        .museum-btn:hover {
+            background: #333;
+            color: white;
+        }
+
+        .museum-text {
+            margin-bottom: 20px;
+        }
+        .excursion-wrapper {
+            background: #B3C3D9;
+            border: 2px solid #333;
+            padding: 30px;
+        }
